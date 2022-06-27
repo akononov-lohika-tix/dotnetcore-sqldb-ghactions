@@ -12,6 +12,7 @@ on:
 #
 # 2. Change these variables for your configuration:
 env:
+  AZURE_WEBAPP_PACKAGE_PATH: '.' 
   AZURE_RESOURCEGROUP_NAME: ContosoSample3-RG                      # set this to your preferred resource group name
   AZURE_WEBAPP_NAME: contoso-web-app-2002                          # set this to your preferred web app name
   ASP_NAME: contoso-asp-2002
