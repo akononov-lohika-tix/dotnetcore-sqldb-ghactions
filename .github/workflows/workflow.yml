@@ -19,7 +19,8 @@ env:
   SQLSERVER_NAME: contoso-2002-webappsql-srv                          # set this to your preferred sql server name
   DATABASE_NAME: contoso-2002-webappsql-db                   # set this to your preferred sql database name
   SQLADMIN_LOGIN: ${{ secrets.SQLADMIN_LOGIN  }}                # Create a secret in your Github repo for the SQL Admin login name you want to use
-  SQLADMIN_PASS: ${{ secrets.SQLADMIN_PASS  }}                 # Create a secret in your Github repo for the SQL Admin password you want to use
+  SQLADMIN_PASS: ${{ secrets.SQLADMIN_PASS  }}  # Create a secret in your Github repo for the SQL Admin password you want to use
+  ASPNETCORE_ENVIRONMENT: DEVELOPMENT
   
 jobs:
   build-and-deploy:
